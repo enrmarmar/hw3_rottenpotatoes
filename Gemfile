@@ -12,10 +12,12 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
+  gem 'rspec-expectations'
 end
 group :test do
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
+  gem 'rspec-expectations'
 end
 group :production do
 #  gem 'pg'
